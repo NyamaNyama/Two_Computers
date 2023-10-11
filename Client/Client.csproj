@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="pngwing.com %281%29.png" />
+    <None Remove="pngwing.com %282%29.png" />
+    <None Remove="pngwing.com %283%29.png" />
+    <None Remove="pngwing.com %284%29.png" />
+    <None Remove="pngwing.com.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="pngwing.com (1).png" />
+    <Resource Include="pngwing.com (2).png" />
+    <Resource Include="pngwing.com (3).png" />
+    <Resource Include="pngwing.com (4).png" />
+    <Resource Include="pngwing.com.png" />
+  </ItemGroup>
+
+</Project>
